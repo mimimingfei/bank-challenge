@@ -37,6 +37,27 @@ date       || credit  || debit  || balance
 - [ ] Encapsulates Statement formatting in a class
 - [ ] Encapsulates Transaction data in a class
 
+---------------------------------------------------------------------
+domain model
+------------------------------------------------------------------------------------------------------------------
+Object             |               Property                  |               Message          |    Output
+------------------------------------------------------------------------------------------------------------------
+Account            |  Name@String                            | getName()                      |@String              
+                   |  Balance@Integer                        | getBalance()                   |@Integer
+                   |  transactionHistory@Array[Transaction]  | getTransactionHistory()        |@Array
+                                                             | deposit()                      |@Integer
+                                                             | withdraw()                     |@Integer
+------------------------------------------------------------------------------------------------------------------
+Transaction        |  Deposit@Integer                        |getDeposit()                    |@String
+                   |  Withdraw@Integer                       |getWithdrawal()                 |@String
+                   |  Date@object                            |getDate()                       |@object
+------------------------------------------------------------------------------------------------------------------
+Balance            |  Balance@Integer                        |deposit()                       |@Integer
+                   |                                         |withdraw()                      |@Integer
+------------------------------------------------------------------------------------------------------------------
+printStatement
+
+
 #### Extended
 - [ ] Can you format the console output?  Credited values should be GREEN and debited values should be RED.  The balance should be GREEN if positive and RED if negative
 
