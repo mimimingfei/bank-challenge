@@ -47,15 +47,17 @@ Account            |  Name@String                            | getName()        
                    |  transactionHistory@Array[Transaction]  | getTransactionHistory()        |@Array
                                                              | deposit()                      |@Integer
                                                              | withdraw()                     |@Integer
+                                                             | printStatement()               |
 ------------------------------------------------------------------------------------------------------------------
 Transaction        |  Deposit@Integer                        |getDeposit()                    |@String
                    |  Withdraw@Integer                       |getWithdrawal()                 |@String
                    |  Date@object                            |getDate()                       |@object
+                   |                                         |getTransaction()                |@object values
 ------------------------------------------------------------------------------------------------------------------
 Balance            |  Balance@Integer                        |deposit()                       |@Integer
                    |                                         |withdraw()                      |@Integer
 ------------------------------------------------------------------------------------------------------------------
-printStatement
+
 
 
 #### Extended
