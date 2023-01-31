@@ -52,7 +52,6 @@ Account            |  Name@String                            | getName()        
 Transaction        |  Deposit@Integer                        |getDeposit()                    |@String
                    |  Withdraw@Integer                       |getWithdrawal()                 |@String
                    |  Date@object                            |getDate()                       |@object
-                   |                                         |getTransaction()                |@object values
 ------------------------------------------------------------------------------------------------------------------
 Balance            |  Balance@Integer                        |deposit()                       |@Integer
                    |                                         |withdraw()                      |@Integer
