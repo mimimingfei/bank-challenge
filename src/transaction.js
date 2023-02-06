@@ -4,10 +4,12 @@ export default class Transaction {
   #date;
   #deposit;
   #withdrawal;
+  #balance;
   constructor(date, deposit, withdrawal) {
     this.#date = date;
     this.#deposit = deposit;
     this.#withdrawal = withdrawal;
+    this.#balance = 0;
   }
 
   getDeposit = () => {
@@ -32,6 +34,11 @@ export default class Transaction {
     return this.#date;
   }
 
+  setBalance(balance) {
+    this.#balance = balance;
+  }
 
+  getBalance() {
+    return this.#balance;
+  }
 }
-
