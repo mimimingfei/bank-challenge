@@ -1,0 +1,38 @@
+{
+  "name": "bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge helps you practice your OO design skills.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "chalk": "^5.2.0",
+    "cli-table3": "^0.6.3",
+    "concat-map": "^0.0.1",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "jasmine": "^4.5.0",
+    "jasmine-core": "^4.5.0",
+    "minimatch": "^3.1.2",
+    "moment": "^2.29.4",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimimingfei/bank-challenge.git"
+  },
+  "author": "Ming Fei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimimingfei/bank-challenge/issues"
+  },
+  "homepage": "https://github.com/mimimingfei/bank-challenge#readme"
+}
