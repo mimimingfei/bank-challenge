@@ -45,16 +45,17 @@ Object             |               Property                  |               Mes
 Account            |  Name@String                            | getName()                      |@String              
                    |  Balance@Integer                        | getBalance()                   |@Integer
                    |  transactionHistory@Array[Transaction]  | getTransactionHistory()        |@Array
-                                                             | deposit()                      |@Integer
-                                                             | withdraw()                     |@Integer
-                                                             | printStatement()               |
-------------------------------------------------------------------------------------------------------------------
+                                                             | addTransaction()               |@Integer
+                                                             | printStatement()               |@Array
+--------------------------------------------------------------------------------git----------------------------------
 Transaction        |  Deposit@Integer                        |getDeposit()                    |@String
                    |  Withdraw@Integer                       |getWithdrawal()                 |@String
                    |  Date@object                            |getDate()                       |@object
 ------------------------------------------------------------------------------------------------------------------
 Balance            |  Balance@Integer                        |deposit()                       |@Integer
                    |                                         |withdraw()                      |@Integer
+                   |                                         |getBalance()                    |@Integer
+                                                             |getBalanceHistory()             |@Array
 ------------------------------------------------------------------------------------------------------------------
 
 
